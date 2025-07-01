@@ -14,7 +14,6 @@ A beautiful, high-performance autoclicker for Windows with animated galaxy UI, m
 - 🔄 **Multiple profile support**
 - 🧠 **Hotkey control** for starting/stopping clicks (default: `F8`)
 - 🖥️ **Create desktop shortcut** with one click
-- 🌐 **Built-in update checker** via GitHub Releases
 
 ---
 
