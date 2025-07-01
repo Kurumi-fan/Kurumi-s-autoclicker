@@ -21,18 +21,3 @@ A beautiful, high-performance autoclicker for Windows with animated galaxy UI, m
 ## 📦 Installation
 
 1. [Download the latest release](https://github.com/Kurumi-fan/Kurumi-s-autoclicker/releases) from the GitHub Releases page.
-2. Extract the `.zip` and run `Kurumis_autoclicker.exe`.
-
----
-
-## 🛠 Requirements (for building from source)
-
-- Python 3.10+
-- `PyQt5`
-- `pynput`
-- `pyinstaller` (for building .exe)
-- `pywin32`
-
-Install all requirements:
-```bash
-pip install -r requirements.txt
