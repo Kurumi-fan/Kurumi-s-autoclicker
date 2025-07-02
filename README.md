@@ -2,7 +2,7 @@
 
 A beautiful, high-performance autoclicker for Windows with animated galaxy UI, multiple profile support, and customizable click settings.
 
-![screenshot](https://i.imgur.com/jreMHwq.png) <!-- Optional image -->
+![screenshot](https://imgur.com/b4c8SL1.png) <!-- Optional image -->
 
 ## ✨ Features
 
