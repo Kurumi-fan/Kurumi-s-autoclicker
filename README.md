@@ -42,7 +42,7 @@ Due to the program's use of mouse and keyboard control libraries (`pynput`), som
 
 ---
 
-## 👤 Developed by [Kurumi-fan](https://github.com/Kurumi-fan)
+## 👤 Developed by [Kurumi_fan](https://github.com/Kurumi-fan)
 
 This project is part of **Kurumi’s Projects** – stay updated with the latest tools and releases.
 
