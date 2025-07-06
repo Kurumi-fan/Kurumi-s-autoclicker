@@ -1,37 +1,78 @@
-# Kurumi's Autoclicker
+# 💠 Kurumi's Autoclicker
 
 ![Logo](https://imgur.com/b4c8SL1.png)
 
-**Version:** 1.0.3  
-**Last updated:** 2025-07-06  
-**Author:** [Kurumi-fan](https://github.com/Kurumi-fan)
-
-## ✨ Overview
-
-Kurumi's Autoclicker is a powerful, stylish and user-friendly autoclicker and macro recorder built with Python and PyQt5. With a sleek galaxy UI and fully customizable settings, it’s the ideal tool for gamers, testers, or anyone who needs automation.
+A beautiful, flexible and feature-packed GUI autoclicker and macro tool powered by Python + PyQt5. Built for gamers, testers, and automation fans.
 
 ---
 
-## 🖱 Features
+## 🚀 Features
 
-### Autoclicker:
-- Click at multiple saved positions
-- Adjustable click intervals: **microseconds, milliseconds, or seconds**
-- Choose left or right click
-- Set a **custom hotkey**
-- Save and manage profiles
-- Option to repeat indefinitely or for a limited time
+### 🎯 Autoclicker
+- Record and save multiple click positions per profile
+- Adjustable interval (microseconds, milliseconds, seconds)
+- Start/Stop hotkey
+- Profiles saved to `profiles.json`
+- Choose between left- and right-click
+- Optional repeat-duration limit
+- Background clicking support
+- Smooth & animated UI with galaxy background
 
-### Macro Recorder (NEW in 1.0.3):
-- Record mouse & keyboard actions
-- View & delete individual actions
-- Set custom playback interval
-- Assign playback hotkey
-- Save profiles separately (`profiles-macros.json`)
+### 🧠 Macro
+- Record key presses and mouse clicks
+- Reorder actions via drag-and-drop
+- Add multiple sequences without overwriting
+- Set interval between actions
+- Start/Stop hotkey
+- Profile support via `profiles-makros.json`
+- Repeat until stopped or until duration is reached
 
-### Additional:
-- Update checker on launch
-- Desktop shortcut creator
-- Profile persistence for both autoclicker & macros
-- Vertical UI layout with **scroll support**
-- Clean & colorful galaxy animation in background
+### 🎥 Recorder (NEW in v1.0.4)
+- Records mouse movement paths and keyboard input
+- ESC to stop recording
+- Set how long the sequence should repeat
+- Start/Stop via assigned hotkey
+- Profiles saved in `profiles-recorder.json`
+- All settings configurable under the **Settings** page
+
+### ⚙️ Settings
+- Unified settings area for:
+  - Autoclicker
+  - Macro
+  - Recorder
+- Control:
+  - Hotkeys
+  - Interval types
+  - Repeat duration toggle
+- Scroll support for small screens
+
+### 🔔 Update Checker
+- Automatic update check on startup
+
+---
+
+## 📦 How to Use
+
+1. Launch the program
+2. Pick click positions or load a profile
+3. Set interval and hotkey
+4. Press the hotkey to start/stop
+
+---
+
+## ⚠️ False Positive?
+Due to the program's use of mouse and keyboard control libraries (`pynput`), some antivirus programs may flag it incorrectly. This is **normal behavior for automation tools**.
+
+---
+
+## 👤 Developed by [Kurumi-fan](https://github.com/Kurumi-fan)
+
+This project is part of **Kurumi’s Projects** – stay updated with the latest tools and releases.
+
+---
+
+## 📥 Download
+
+> [📁 Latest Release on GitHub](https://github.com/Kurumi-fan/Kurumi-s-autoclicker/releases)
+
+Windows `.exe` is provided under each release. Mac/Linux users can run the Python source manually.
