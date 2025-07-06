@@ -74,5 +74,3 @@ This project is part of **Kurumi’s Projects** – stay updated with the latest
 ## 📥 Download
 
 > [📁 Latest Release on GitHub](https://github.com/Kurumi-fan/Kurumi-s-autoclicker/releases)
-
-Windows `.exe` is provided under each release. Mac/Linux users can run the Python source manually.
