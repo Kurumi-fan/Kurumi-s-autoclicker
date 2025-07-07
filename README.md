@@ -95,8 +95,8 @@ Yes, the program:
 
 > 🛠️ Still worried? 
 
-* **Add me on discord and I can share my screen and use this application/programm.
-* **Username: Kurumi_fan
+* Add me on discord and I can share my screen and use this application/programm.
+* Username: Kurumi_fan
 
 ---
 
