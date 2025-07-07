@@ -83,8 +83,6 @@ Some antivirus engines flag automation tools because they share **behavioral pat
 * **Network access to check for updates**
   It connects to GitHub to check if new versions are available. This is benign but may be seen as suspicious if you're not expecting it.
 
----
-
 #### ✅ Is It Safe?
 
 Yes, the program:
@@ -95,8 +93,8 @@ Yes, the program:
 
 > 🛠️ Still worried? 
 
-* Add me on discord and I can share my screen and use this application/programm.
-* Username: Kurumi_fan
+* **Add me on discord and I can share my screen and use this application/programm.**
+* **Username: Kurumi_fan**
 
 ---
 
