@@ -60,8 +60,43 @@ A beautiful, flexible and feature-packed GUI autoclicker and macro tool powered 
 
 ---
 
-## ⚠️ False Positive?
-Due to the program's use of mouse and keyboard control libraries (`pynput`), some antivirus programs may flag it incorrectly. This is **normal behavior for automation tools**.
+### ⚠️ Why Some Antivirus Programs Flag This
+
+The reason is pretty simple: **this tool uses automation features** that are often abused by malware — even though everything it does is safe and transparent. Here's what you need to know:
+
+#### 🧠 Why Antivirus Software Might Flag It
+
+Some antivirus engines flag automation tools because they share **behavioral patterns** with malware. In this case, **Kurumi’s Autoclicker** may be detected due to:
+
+* **Simulated mouse and keyboard actions**
+  (`pynput` is used to click, type, and move the mouse – this behavior resembles bots or keyloggers)
+
+* **Global hotkey listening**
+  The app listens for hotkeys globally to start/stop clicking or macros – some malware uses similar mechanisms to activate payloads.
+
+* **Creates files on disk**
+  The program saves your profiles to `.json` files (e.g. `profiles.json`, `profiles-makros.json`, etc). This activity is flagged as *“drops files during execution”* by some scanners.
+
+* **Uses Windows scripting features**
+  It uses `win32com.client` to optionally create desktop shortcuts, which touches Windows internals (e.g. COM objects, WScript.Shell).
+
+* **Network access to check for updates**
+  It connects to GitHub to check if new versions are available. This is benign but may be seen as suspicious if you're not expecting it.
+
+---
+
+#### ✅ Is It Safe?
+
+Yes, the program:
+
+* **Does not contain any malicious code**
+* **Does not send any personal data**
+* **Does not run in the background without user interaction**
+
+> 🛠️ Still worried? 
+
+* **Add me on discord and I can share my screen and use this application/programm.
+* **Username: Kurumi_fan
 
 ---
 
