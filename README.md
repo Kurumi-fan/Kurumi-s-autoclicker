@@ -93,7 +93,7 @@ Yes, the program:
 
 > 🛠️ Still worried? 
 
-* **Add me on discord and I can share my screen and use this application/programm.**
+* **Add me on discord and I can share my screen, to show you that it's completely safe.**
 * **Username: Kurumi_fan**
 
 ---
