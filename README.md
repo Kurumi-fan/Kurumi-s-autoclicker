@@ -60,7 +60,7 @@ To use the app, you’ll need a **valid key**. This helps prevent abuse and unwa
 
 You can get the key in two ways:
 
-* 📌 Check the `#projects` channel on our Discord
+* 📌 Check the `#key` channel on our Discord
 * 🤖 DM the bot with `!key` to receive your current valid key
 
 Once you enter it, it’s saved in `key.json` and automatically checked at startup.
