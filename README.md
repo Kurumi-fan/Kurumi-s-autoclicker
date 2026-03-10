@@ -2,116 +2,95 @@
 
 ![Logo](https://imgur.com/b4c8SL1.png)
 
-A beautiful, flexible and feature-packed GUI autoclicker and macro tool powered by Python + PyQt5. Built for gamers, testers, and automation fans.
+A beautiful, blazing-fast, and feature-packed GUI autoclicker and macro tool. **Now completely Open Source!** Built with **Python (CustomTkinter)** for a gorgeous modern interface and powered by a **C++ DLL** for highly precise, game-level input simulation. Designed for gamers, testers, and automation fans.
 
 ---
 
 ## 🚀 Features
 
 ### 🎯 Autoclicker
-
-* Record and save multiple click positions per profile
-* Adjustable interval (milliseconds and seconds)
-* Start/Stop hotkey
-* Profiles saved to `profiles.json`
-* Choose between left- and right-click
-* Optional repeat-duration limit
-* Background clicking support
-* Smooth & animated UI with galaxy background
+* **Pinpoint Accuracy:** Record and save multiple specific click positions per profile.
+* **Custom C++ Backend:** Uses native Windows `SendInput` via a custom DLL for lightning-fast, lag-free clicking.
+* **Total Control:** Adjustable interval and duration in milliseconds or seconds.
+* **Left/Right Click:** Toggle effortlessly between mouse buttons.
+* **Live Point Picking:** Pick screen coordinates with a built-in crosshair listener.
 
 ### 🧠 Macro
-
-* Record key presses and mouse clicks
-* Reorder actions via drag-and-drop
-* Add multiple sequences without overwriting
-* Set interval between actions
-* Start/Stop hotkey
-* Profile support via `profiles-makros.json`
-* Repeat until stopped or until duration is reached
-* Macros click at your **current mouse position**, ignoring original coordinates
+* **Record & Play:** Record complex sequences of key presses and mouse clicks.
+* **Advanced Editing:** Select specific actions in your list to **Move Up, Move Down, or Delete** them directly in the UI.
+* **Current Position Clicking:** Macros click at your *current* mouse position, giving you flexibility in games.
+* **Append Mode:** Add multiple sequences to the same macro without overwriting your progress.
 
 ### 🎥 Recorder
+* **Full Motion Capture:** Records precise mouse movement paths alongside keyboard inputs.
+* **Playback Speed:** Speed up or slow down your recorded sequences on the fly.
+* **ESC to Stop:** Safely stop recording or playback at any time with the Escape key.
 
-* Records mouse movement paths and keyboard input
-* ESC to stop recording
-* Set how long the sequence should repeat
-* Start/Stop via assigned hotkey
-* Profiles saved in `profiles-recorder.json`
-* All settings configurable under the **Settings** page
+### ⚙️ Settings & Customization
+* **Unified Profile System:** Seamlessly Create, Rename, Save, and Delete profiles for Autoclicker, Macro, and Recorder.
+* **Color Picker:** Personalize the UI! Change the default red accent to any color you like.
+* **Organized Data:** All profiles and settings are cleanly stored in `%APPDATA%\KurumiProjects`.
+* **Desktop Shortcut Generator:** Create a quick-launch shortcut with one click.
 
-### ⚙️ Settings
-
-* Unified settings area for:
-
-  * Autoclicker
-  * Macro
-  * Recorder
-* Control:
-
-  * Hotkeys
-  * Interval types
-  * Repeat duration toggle
-* Scroll support for small screens
-* Performance mode toggle
-
-### 🌐 Online Availability Check (New since 1.1.1)
-
-* On startup, the program checks whether the official GitHub repository still exists.
-* If the repository is unavailable, the app shows a clear error message and closes.
-* This replaces the old **Key System** from v1.0.7.
-
-### 🌐 Other Projects Page
-
-* Discover other Kurumi tools:
-
-  * [Kurumi’s Minecraft](https://github.com/Kurumi-fan/Kurumi-s-minecraft)
-  * [Kurumi’s Crosshair](https://github.com/Kurumi-fan/Kurumi-s-Crosshair)
-
-### 🔔 Update Checker
-
-* Automatic update check on startup
-* Simple "Update" button if a new version is available
-* Downloads and replaces the `.exe` automatically
+### 🔄 Automatic Updates
+* **Smart Update Checker:** Checks GitHub for the latest release on startup.
+* **Seamless Installation:** Downloads the new `.exe` and replaces the old one automatically via the built-in update assistant.
 
 ---
 
 ## 📦 How to Use
 
-1. Launch the program  
-2. Pick a section: Autoclicker / Macro / Recorder  
-3. Set your preferences (interval, hotkey, repeat time)  
-4. Press the hotkey to start or stop  
-5. Save/load profiles to reuse setups  
+1. **Launch the program** (A quick tutorial will greet you on your first run).
+2. **Pick a tool:** Navigate between Autoclicker, Macro, or Recorder using the top menu.
+3. **Set your triggers:** Assign your preferred hotkeys (e.g., `F6`, `F9`, `F10`).
+4. **Configure:** Set your click intervals, durations, or record your sequence.
+5. **Execute:** Press your assigned hotkey to start or stop the automation.
+6. **Save:** Don't forget to save your setup as a Profile in the Settings tab!
+
+---
+
+## 🛠️ For Developers (Build it yourself)
+
+Since v1.1.2, Kurumi's Autoclicker is fully open-source. 
+
+**Prerequisites:**
+* Python 3.x
+* C++ Compiler (e.g., MinGW or MSVC for building `clicker.dll`)
+* Required Python packages: `customtkinter`, `pynput`
+
+**Running from source:**
+1. Clone the repository.
+2. Ensure `clicker.dll` is compiled and placed in the same directory as `gui.py`.
+3. Run `python gui.py`.
 
 ---
 
 ### ⚠️ Antivirus False Positives?
 
-Because Kurumi’s Autoclicker uses global hotkeys and automation features (mouse & keyboard simulation), some antivirus tools might **falsely detect it** as malware.
+Because this tool uses global hotkeys, mouse listeners (`pynput`), and a C++ DLL that injects system-level inputs (`SendInput`), some Antivirus software or game anti-cheats might **falsely flag it**.
 
-#### ✅ But it is safe:
+#### ✅ Why it is safe:
+* **100% Open Source:** You can read every single line of code right here on GitHub.
+* **No Telemetry:** No data is collected, stored remotely, or transmitted.
+* **Local Storage:** Everything saves locally to your `AppData` folder.
 
-* No data is collected or transmitted  
-* The app runs only when you open it  
-* You control what it does and when  
-
-Need proof?
-
-> 💬 DM me on Discord: **Kurumi\_fan** – I’ll gladly walk you through how it works.
+Need help or proof?
+> 💬 DM me on Discord: **Kurumi_fan** – I’ll gladly walk you through it.
 
 ---
 
 ## 👤 Developed by [Kurumi-fan](https://github.com/Kurumi-fan)
 
-This is part of **Kurumi’s Projects** – a set of fun, helpful, and clean tools built with Python.
+This is part of **Kurumi’s Projects** – a set of fun, helpful, and clean tools.
 
 More tools:
-
-* [Kurumi’s Minecraft](https://github.com/Kurumi-fan/Kurumi-s-minecraft)
 * [Kurumi’s Crosshair](https://github.com/Kurumi-fan/Kurumi-s-Crosshair)
+* [Kurumi’s Crosshair](https://github.com/Kurumi-fan/Kurumi-s-minecraft)
+* [Kurumi’s Crosshair](https://github.com/Kurumi-fan/Kurumi-s-toolkit)
+* [Kurumi’s Crosshair](https://github.com/Kurumi-fan/Kurumis-SoundControl)
 
 ---
 
 ## 📥 Download
 
-> [📁 Latest Release on GitHub](https://github.com/Kurumi-fan/Kurumi-s-autoclicker/releases)
+> [📁 Download the Latest .exe Release here!](https://github.com/Kurumi-fan/Kurumi-s-autoclicker/releases)
