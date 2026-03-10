@@ -1,0 +1,30 @@
+Welcome to Kurumi's Autoclicker!
+
+This tool combines an autoclicker, macro recorder, and input recorder.
+
+# Autoclicker:
+- Set interval and click duration.
+- Choose left or right click.
+- Pick screen positions where clicks should occur.
+- Start/stop with a global hotkey (default F6).
+
+# Macro:
+- Record a sequence of key presses and mouse clicks.
+- Press ESC to stop recording.
+- Play back the macro with adjustable event interval and click hold time.
+- Edit events (delete, move up/down) directly in the list.
+- Assign a hotkey for instant playback (default F9).
+
+# Recorder:
+- Record everything: mouse movements, clicks, and keyboard input with exact timings.
+- Press ESC to stop recording.
+- Play back the recording at custom speed.
+- Great for demonstrations or repeating complex workflows.
+
+**General Tips:**
+- Use ESC to stop any recording (macro or recorder).
+- Create multiple profiles for different configurations.
+- Change the accent color in Settings.
+- Check for updates in Settings.
+
+Enjoy automating!

@@ -1,0 +1,44 @@
+# Kurumi's Autoclicker
+
+Welcome to **Kurumi's Autoclicker**, a powerful automation tool created by [Kurumi_fan](https://github.com/Kurumi-fan).  
+This application combines an autoclicker, a macro recorder, and an input recorder in one sleek interface.
+
+---
+
+# Features
+
+# 🔁 Autoclicker
+- Set custom **interval** and **click duration** (milliseconds or seconds).
+- Choose between **left** or **right** clicks.
+- Pick specific screen positions where clicks should occur.
+- Start/stop with a **global hotkey** (e.g., F6).
+
+# 📋 Macro
+- Record a sequence of **key presses** and **mouse clicks**.
+- Play back the macro with adjustable **event interval** and **click hold time**.
+- Edit events: delete, move up/down directly in the list.
+- Assign a hotkey (e.g., F9) for instant playback.
+
+# 🎥 Recorder
+- Record **everything**: mouse movements, clicks, and keyboard input with exact timings.
+- Play back the recording at a custom **speed** (faster or slower).
+- Great for demonstrations, tutorials, or repeating complex workflows.
+- Stop recording with the **ESC** key.
+
+# ⚙️ Settings & Profiles
+- Create and manage **multiple profiles** for Autoclicker, Macro, and Recorder.
+- Change the application’s **accent color** to your preference.
+- Create a **desktop shortcut** for quick access.
+- Built‑in **update checker** – never miss a new version.
+
+---
+
+# Get Involved
+
+- 💬 Join our [Discord server](https://discord.com/invite/TszXPuBBtE) for support, feedback, or just to hang out.
+- 🐛 Found a bug or have an idea? Visit the [GitHub repository](https://github.com/Kurumi-fan) and open an issue.
+- ⭐ If you like the tool, consider starring the project on GitHub!
+
+---
+
+Enjoy automating with Kurumi's Autoclicker!
